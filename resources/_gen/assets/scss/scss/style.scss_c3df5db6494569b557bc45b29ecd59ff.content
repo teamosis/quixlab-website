@@ -4955,8 +4955,8 @@ a:hover {
   color: #1e52f0; }
 
 .section {
-  padding-top: 5rem;
-  padding-bottom: 5rem; }
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem; }
   .section-sm {
     padding-top: 3rem;
     padding-bottom: 3rem; }
@@ -5012,6 +5012,17 @@ select {
 select:-moz-focusring {
   color: transparent;
   text-shadow: none; }
+
+.badge {
+  font-size: 11px;
+  background-color: #1e52f0;
+  color: #fff;
+  padding: 5px 8px 3px 9px;
+  display: inline-block;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400; }
 
 footer {
   border-top: 1px solid #eee; }

@@ -4,12 +4,12 @@ name = "Premium Themes"
 url = "premium-themes/"
 weight = 1
 
-[[main]]
-name = "Free Themes"
-url = "free-themes/"
-weight = 2
+# [[main]]
+# name = "Free Themes"
+# url = "free-themes/"
+# weight = 2
 
-[[main]]
-name = "Support"
-url = "contact/"
-weight = 4
+# [[main]]
+# name = "Support"
+# url = "contact/"
+# weight = 4

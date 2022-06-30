@@ -8,6 +8,8 @@
       <div class="col-12">
         <h2 class="h5 mb-4">Browse Themes</h2>
       </div>
+    </div>
+    <div class="row gx-0 gx-lg-5 gy-5 justify-content-between">
       {{ range .Data.Pages.ByPublishDate.Reverse }}
       <div class="col-xl-6 col-lg-6">
         {{.Render "product-card"}}

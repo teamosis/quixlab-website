@@ -28,7 +28,12 @@
 </div>
 <div class="d-flex justify-content-between mt-3 align-items-center">
   <div class="block">
-    <h3 class="h5 mb-0"><a class="text-reset" href="{{.Params.product_url | safeURL}}" target="_blank">{{.Title}}</a></h3>
+    <h3 class="h5 mb-0 d-flex align-items-center">
+      <a class="text-reset" href="{{.Params.product_url | safeURL}}" target="_blank">{{.Title}}</a>
+      {{ range .GetTerms "categories" }}
+      <span class="badge ms-2">{{ .LinkTitle | humanize }}</span>
+      {{ end }}
+    </h3>
     <p class="mb-0 small">{{.Params.description}}</p>
   </div>
   <div class="price">
