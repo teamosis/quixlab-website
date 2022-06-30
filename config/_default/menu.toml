@@ -1,0 +1,15 @@
+# main menu
+[[main]]
+name = "Premium Themes"
+url = "premium-themes/"
+weight = 1
+
+[[main]]
+name = "Free Themes"
+url = "free-themes/"
+weight = 2
+
+[[main]]
+name = "Support"
+url = "contact/"
+weight = 4

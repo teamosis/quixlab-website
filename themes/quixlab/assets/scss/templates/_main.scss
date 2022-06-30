@@ -1,0 +1,30 @@
+.banner,
+.header-gap {
+  padding-top: 9.5rem;
+  &.section-sm {
+    padding-top: 9.2rem;
+  }
+}
+
+.theme-image {
+  .btn {
+    width: 170px;
+    margin: 5px;
+  }
+  img {
+    transition: 0.3s;
+  }
+  .block {
+    transition: 0.3s;
+    background-color: rgba($dark, 0.4);
+    opacity: 0;
+  }
+  &:hover {
+    img {
+      transform: scale(1.02);
+    }
+    .block {
+      opacity: 1;
+    }
+  }
+}

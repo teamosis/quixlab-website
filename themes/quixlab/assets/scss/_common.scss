@@ -1,0 +1,111 @@
+body {
+  background-color: $body-bg;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: lighten($color: $color-primary, $amount: 10);
+  color: $white;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+a:hover {
+  color: $color-primary;
+}
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  &-sm {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.bg-primary {
+  background: $color-primary !important;
+}
+.text-primary {
+  color: $color-primary !important;
+}
+.text-default {
+  color: $text-color !important;
+}
+.text-dark:hover,
+.text-reset:hover {
+  color: $color-primary !important;
+}
+
+.bg-light {
+  background-color: #fafbff !important;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1220px;
+  }
+}
+
+.input-control {
+  &:not(textarea) {
+    height: 50px;
+  }
+  border: 1px solid #ddd;
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  padding: 0 1rem;
+  transition: 0.3s;
+  outline: 0;
+  &:focus {
+    border-color: $color-primary;
+  }
+}
+textarea {
+  padding: 0.6rem 1rem !important;
+  resize: none;
+}
+select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &:required:invalid {
+    color: rgba(black, 0.6);
+  }
+}
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: none;
+}
+
+footer {
+  border-top: 1px solid #eee;
+}

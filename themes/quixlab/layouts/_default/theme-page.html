@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+{{ partial "page-header" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row gx-0 gx-lg-5 justify-content-between">
+      <div class="col-12">
+        <h2 class="h5 mb-4">Browse Themes</h2>
+      </div>
+      {{ if eq .Permalink (`free-themes/` | absURL)}}
+        {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).ByPublishDate.Reverse }}
+        {{ if eq .Params.price 0}}
+        <div class="col-xl-6 col-lg-6">
+          {{.Render "product-card"}}
+        </div>
+        {{ end }}
+        {{ end }}
+      {{ else if eq .Permalink (`premium-themes/` | absURL)}}
+        {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).ByPublishDate.Reverse }}
+        {{ if ne .Params.price 0}}
+        <div class="col-xl-6 col-lg-6">
+          {{.Render "product-card"}}
+        </div>
+        {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

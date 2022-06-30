@@ -1,0 +1,50 @@
+/* Button style */
+.btn {
+  font-size: 1rem;
+  font-family: $font-primary;
+  text-transform: capitalize;
+  padding: 1em 2em;
+  padding-bottom: 0.95em;
+  border-radius: 5rem;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  transition: 0.2s ease;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  &-sm {
+    font-size: 0.9rem;
+    padding: 0.7em 1.5em;
+    padding-bottom: 0.65em;
+  }
+}
+
+.btn-light {
+  background-color: $white;
+  border: 0;
+  color: $dark;
+}
+
+.btn-primary {
+  background: $color-primary;
+  color: $white;
+  border-color: $color-primary;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    background: darken($color-primary, 10);
+    border-color: darken($color-primary, 10);
+    color: $white;
+  }
+}

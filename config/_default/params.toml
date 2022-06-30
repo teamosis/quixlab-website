@@ -1,0 +1,28 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/logo.png"
+# logo
+logo = "images/logo.png"
+logo_width = "40px"
+# if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_webp = false
+# logo text will only show when logo is missing.
+logo_text = "Quixlab"
+# Main Sections
+mainSections = ["themes"]
+# google tag manager
+google_tag_manager = "" # example: G-XXXXXXXXXX
+
+contact_form_action = "#"
+email = "email@gmail.com"
+
+# seo meta data for OpenGraph / Twitter Card
+[metadata]
+keywords = ["Quixlab"]
+description = "Quixlab"
+author = "Quixlab"
+image = "images/logo.png"
+
+# site verifications
+[site_verification]
+google = ""   # Your verification code

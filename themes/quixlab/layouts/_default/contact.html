@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+<section class="section header-gap mt-4">
+  <div class="container">
+    <div class="row justify-content-center gy-5">
+      <div class="col-lg-4">
+        <div class="pe-0 pe-lg-4">
+          <div class="content">
+            <h2 class="h4">{{ .Title | markdownify }}</h2>
+            <hr>
+            <div class="mt-4 d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+              </svg>
+              <p class="mb-0 ms-3"><a class="text-dark" href="mailto:{{site.Params.email}}">{{site.Params.email}}</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <form method="POST" action="{{ site.Params.contact_form_action | safeURL}}" class="row gy-3">
+          <div class="col-md-6">
+            <input type="text" class="input-control" placeholder="First Name" name="f_name">
+          </div>
+          <div class="col-md-6">
+            <input type="text" class="input-control" placeholder="Last Name" name="l_name">
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="input-control" placeholder="Email" name="email" id="email">
+          </div>
+          <div class="col-md-6">
+            <input type="text" class="input-control" placeholder="Subject" name="subject" id="subject">
+          </div>
+          <div class="col-md-12">
+            <select name="department" id="department" class="input-control" required="">
+              <option value="">Select Department</option>
+              <option value="Technical Question">Technical Question</option>
+              <option value="Pre Sales Questions">Pre Sales Questions</option>
+              <option value="Payment Problem">Payment Problem</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <textarea name="message" id="message" class="input-control" placeholder="Type You Message Here"
+              rows="5"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-sm btn-primary" type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
