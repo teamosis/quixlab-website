@@ -1,4 +1,4 @@
 ---
-title: "All Themes"
-description: "All Quixlab Themes"
+title: "All Premium Themes"
+description: "All Premium Themes"
 ---

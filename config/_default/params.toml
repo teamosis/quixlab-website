@@ -13,8 +13,8 @@ mainSections = ["themes"]
 # google tag manager
 google_tag_manager = "" # example: G-XXXXXXXXXX
 
-contact_form_action = "#"
-email = "email@gmail.com"
+contact_form_action = "https://formspree.io/f/xrgjwgdq"
+email = "quixlab.com@gmail.com"
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]

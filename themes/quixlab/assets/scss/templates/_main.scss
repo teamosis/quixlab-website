@@ -1,12 +1,14 @@
 .banner,
 .header-gap {
-  padding-top: 9.5rem;
+  padding-top: 10.5rem;
   &.section-sm {
-    padding-top: 9.2rem;
+    padding-top: 10rem;
   }
 }
 
 .theme-image {
+  box-shadow: 0 2px 7px #eaeaea;
+  border-radius: 5px;
   .btn {
     width: 170px;
     margin: 5px;

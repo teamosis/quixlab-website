@@ -4,8 +4,8 @@ title: "Elaenia"
 description: "Cryptocurrency Exchange Dashboard React App"
 price: 29
 categories: ["react"]
-image: "images/themes/treemium.jpeg"
-product_url: "https://themeforest.net/item/elaenia-cryptocurrency-exchange-dashboard-react-app/28109400"
-demo_url: "https://preview.themeforest.net/item/elaenia-cryptocurrency-exchange-dashboard-react-app/full_screen_preview/28109400"
+image: "products/treemium.jpeg"
+product: "https://themeforest.net/item/elaenia-cryptocurrency-exchange-dashboard-react-app/28109400"
+demo: "https://preview.themeforest.net/item/elaenia-cryptocurrency-exchange-dashboard-react-app/full_screen_preview/28109400"
 ---
 

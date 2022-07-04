@@ -4,8 +4,8 @@ title: "Tradio"
 description: "Cryptocurrency Exchange Vue App Dashboard"
 price: 29
 categories: ["vue"]
-image: "images/themes/tradio-vue.jpeg"
-product_url: "https://themeforest.net/item/tradio-cryptocurrency-exchange-vue-app-dashboard/31769897"
-demo_url: "https://preview.themeforest.net/item/tradio-cryptocurrency-exchange-vue-app-dashboard/full_screen_preview/31769897"
+image: "products/tradio-vue.jpeg"
+product: "https://themeforest.net/item/tradio-cryptocurrency-exchange-vue-app-dashboard/31769897"
+demo: "https://preview.themeforest.net/item/tradio-cryptocurrency-exchange-vue-app-dashboard/full_screen_preview/31769897"
 ---
 

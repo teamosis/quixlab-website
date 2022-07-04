@@ -4893,13 +4893,14 @@ h1,
   font-size: 1rem;
   font-family: "Space Grotesk", sans-serif;
   text-transform: capitalize;
-  padding: 1em 2em;
-  padding-bottom: 0.95em;
+  padding: 0.8em 2em;
+  padding-bottom: 0.75em;
   border-radius: 5rem;
   border: 1px solid;
   position: relative;
   z-index: 1;
-  transition: 0.2s ease; }
+  transition: 0.2s ease;
+  display: inline-block; }
   .btn:hover, .btn:active, .btn.active, .btn:focus, .btn.focus {
     outline: 0;
     box-shadow: none; }
@@ -4955,8 +4956,8 @@ a:hover {
   color: #1e52f0; }
 
 .section {
-  padding-top: 5.5rem;
-  padding-bottom: 5.5rem; }
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
   .section-sm {
     padding-top: 3rem;
     padding-bottom: 3rem; }
@@ -4983,7 +4984,7 @@ a:hover {
 
 .input-control {
   border: 1px solid #ddd;
-  border-radius: 0;
+  border-radius: 4px;
   width: 100%;
   display: block;
   padding: 0 1rem;
@@ -5015,14 +5016,15 @@ select:-moz-focusring {
 
 .badge {
   font-size: 11px;
-  background-color: #1e52f0;
+  background-color: #5071d6;
   color: #fff;
-  padding: 5px 8px 3px 9px;
+  padding: 6px 7px 5px 8px;
   display: inline-block;
-  line-height: 1.4;
+  line-height: 1;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 400; }
+  font-weight: 400;
+  border-radius: 3px; }
 
 footer {
   border-top: 1px solid #eee; }
@@ -5061,25 +5063,24 @@ footer {
       padding: 0.5rem; } }
 .banner,
 .header-gap {
-  padding-top: 9.5rem; }
+  padding-top: 10.5rem; }
   .banner.section-sm,
   .header-gap.section-sm {
-    padding-top: 9.2rem; }
+    padding-top: 10rem; }
 
-.theme-image .btn {
-  width: 170px;
-  margin: 5px; }
-
-.theme-image img {
-  transition: 0.3s; }
-
-.theme-image .block {
-  transition: 0.3s;
-  background-color: rgba(34, 34, 34, 0.4);
-  opacity: 0; }
-
-.theme-image:hover img {
-  transform: scale(1.02); }
-
-.theme-image:hover .block {
-  opacity: 1; }
+.theme-image {
+  box-shadow: 0 2px 7px #eaeaea;
+  border-radius: 5px; }
+  .theme-image .btn {
+    width: 170px;
+    margin: 5px; }
+  .theme-image img {
+    transition: 0.3s; }
+  .theme-image .block {
+    transition: 0.3s;
+    background-color: rgba(34, 34, 34, 0.4);
+    opacity: 0; }
+  .theme-image:hover img {
+    transform: scale(1.02); }
+  .theme-image:hover .block {
+    opacity: 1; }

@@ -4,8 +4,8 @@ title: "Tradient"
 description: "Cryptocurrency Exchange Dashboard Template + Landing Page"
 price: 29
 categories: ["html"]
-image: "images/themes/tradient-html.jpg"
-product_url: "https://themeforest.net/item/tradient-cryptocurrency-exchange-dashboard-template/24890682"
-demo_url: "https://preview.themeforest.net/item/tradient-cryptocurrency-exchange-dashboard-template/full_screen_preview/24890682"
+image: "products/tradient-html.jpg"
+product: "https://themeforest.net/item/tradient-cryptocurrency-exchange-dashboard-template/24890682"
+demo: "https://preview.themeforest.net/item/tradient-cryptocurrency-exchange-dashboard-template/full_screen_preview/24890682"
 ---
 

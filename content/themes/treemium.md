@@ -4,8 +4,8 @@ title: "Treemium"
 description: "Cryptocurrency Exchange Nextjs App"
 price: 39
 categories: ["next"]
-image: "images/themes/treemium.jpeg"
-product_url: "https://themeforest.net/item/treemium-cryptocurrency-exchange-nextjs-app/37026279"
-demo_url: "https://treemium-nextjs.vercel.app/demo"
+image: "products/treemium.jpeg"
+product: "https://themeforest.net/item/treemium-cryptocurrency-exchange-nextjs-app/37026279"
+demo: "https://treemium-nextjs.vercel.app/demo"
 ---
 
