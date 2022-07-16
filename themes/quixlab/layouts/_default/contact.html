@@ -2,13 +2,13 @@
 
 <section class="section header-gap mt-4 bg-light">
   <div class="container">
-    <div class="row justify-content-center gy-5">
-      <div class="col-lg-4">
+    <div class="row justify-content-center gy-3">
+      <div class="col-lg-8">
         <div class="pe-0 pe-lg-4">
-          <div class="content">
-            <h2 class="h4" style="display:table-caption">{{ .Title | markdownify }}</h2>
-            <hr>
-            <div class="mt-4 d-flex align-items-center">
+          <div class="content text-center">
+            <h2 class="h3">{{ .Title | markdownify }}</h2>
+            <!-- <hr> -->
+            <div class="mt-4 d-flex align-items-center d-none">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope"
                 viewBox="0 0 16 16">
                 <path
@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <form method="POST" action="{{ site.Params.contact_form_action | safeURL}}" class="row gy-3">
+        <form method="POST" action="{{ site.Params.contact_form_action | safeURL}}" class="row gy-4">
           <div class="col-md-12">
             <input type="text" class="input-control" placeholder="Full Name" name="f_name" required>
           </div>
@@ -35,7 +35,7 @@
             <textarea name="message" id="message" class="input-control" placeholder="Type You Message Here"
               rows="4" required></textarea>
           </div>
-          <div class="col-12">
+          <div class="col-12 text-center">
             <button class="btn btn-sm btn-primary" type="submit">Send Message</button>
           </div>
         </form>
