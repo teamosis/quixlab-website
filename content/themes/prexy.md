@@ -4,7 +4,7 @@ title: "Prexy"
 description: "Currency Exchange HTML Dashboard"
 price: 0
 categories: ["html"]
-image: "/products/prexy.png"
+image: "/products/prexy.jpg"
 product: "https://github.com/quixlab/prexy/"
 demo: "https://quixlab-prexy.netlify.app/demo.html"
 download: "https://github.com/quixlab/prexy/archive/refs/heads/main.zip"

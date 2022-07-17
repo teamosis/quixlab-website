@@ -32,9 +32,7 @@
     <div class="row gx-0 gx-lg-5 gy-5 justify-content-between">
       {{ range first 8 (where site.RegularPages "Type" "in" site.Params.mainSections).ByPublishDate.Reverse }}
       <div class="col-xl-6 col-lg-6">
-        {{ if ne .Params.price 0}}
         {{.Render "product-card"}}
-        {{ end }}
       </div>
       {{ end }}
       <div class="col-12 text-center">
