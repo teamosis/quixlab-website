@@ -5,7 +5,6 @@ description: "Cryptocurrency Exchange Nextjs App"
 price: 39
 categories: ["next"]
 image: "products/treemium.jpeg"
-product: "https://themeforest.net/item/treemium-cryptocurrency-exchange-nextjs-app/37026279"
-demo: "https://treemium-nextjs.vercel.app/demo"
+product: "https://1.envato.market/ZdjPXz"
+demo: "https://1.envato.market/oeD6vn"
 ---
-

@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange Dashboard React App"
 price: 29
 categories: ["react"]
 image: "products/cheerio-react.jpeg"
-product: "https://themeforest.net/item/cheerio-cryptocurrency-exchange-dashboard-react-app/29761048"
-demo: "https://preview.themeforest.net/item/cheerio-cryptocurrency-exchange-dashboard-react-app/full_screen_preview/29761048"
+product: "https://1.envato.market/jW066e"
+demo: "https://1.envato.market/P0Eddz"
 ---
 

@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange Dashboard Template + Landing Page"
 price: 29
 categories: ["html"]
 image: "products/elaenia-html.jpg"
-product: "https://themeforest.net/item/elaenia-cryptocurrency-exchange-dashboard-template/25078720"
-demo: "https://preview.themeforest.net/item/elaenia-cryptocurrency-exchange-dashboard-template/full_screen_preview/25078720"
+product: "https://1.envato.market/6bLM5K"
+demo: "https://1.envato.market/OR0d3Q"
 ---
 

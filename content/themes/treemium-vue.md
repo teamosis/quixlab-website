@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange Dashboard VUE JS App"
 price: 29
 categories: ["vue"]
 image: "products/treemium-vue.jpeg"
-product: "https://themeforest.net/item/treemium-cryptocurrency-exchange-dashboard-vue-js-app/31515609"
-demo: "https://preview.themeforest.net/item/treemium-cryptocurrency-exchange-dashboard-vue-js-app/full_screen_preview/31515609"
+product: "https://1.envato.market/P0EdNz"
+demo: "https://1.envato.market/a1VGQW"
 ---
 

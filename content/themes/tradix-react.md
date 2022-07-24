@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange React App with Dashboard"
 price: 29
 categories: ["react"]
 image: "products/tradix-react.jpeg"
-product: "https://themeforest.net/item/tradix-cryptocurrency-exchange-react-app/25721963"
-demo: "https://preview.themeforest.net/item/tradix-cryptocurrency-exchange-react-app/full_screen_preview/25721963"
+product: "https://1.envato.market/15BdQR"
+demo: "https://1.envato.market/Zd5j3q"
 ---
 

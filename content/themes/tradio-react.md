@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange React App Dashboard + Landing Page"
 price: 29
 categories: ["react"]
 image: "products/tradio-react.jpeg"
-product: "https://themeforest.net/item/tradio-cryptocurrency-exchange-react-app-dashboard/27503351"
-demo: "https://preview.themeforest.net/item/tradio-cryptocurrency-exchange-react-app-dashboard/full_screen_preview/27503351"
+product: "https://1.envato.market/e4XZ2D"
+demo: "https://1.envato.market/qn96v5"
 ---
 

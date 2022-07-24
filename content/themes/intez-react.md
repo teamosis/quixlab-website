@@ -5,7 +5,7 @@ description: "Payment Dashboard React App"
 price: 29
 categories: ["react"]
 image: "products/intez-react.jpeg"
-product: "https://themeforest.net/item/intez-payment-dashboard-react-app/31770283"
-demo: "https://preview.themeforest.net/item/intez-payment-dashboard-react-app/full_screen_preview/31770283"
+product: "https://1.envato.market/dogJJM"
+demo: "https://1.envato.market/NKWyy7"
 ---
 

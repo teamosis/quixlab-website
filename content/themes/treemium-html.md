@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange Dashboard Template"
 price: 29
 categories: ["html"]
 image: "products/treemium-html.jpeg"
-product: "https://themeforest.net/item/treemium-cryptocurrency-exchange-dashboard-template/29405946"
-demo: "https://preview.themeforest.net/item/treemium-cryptocurrency-exchange-dashboard-template/full_screen_preview/29405946"
+product: "https://1.envato.market/5bE00j"
+demo: "https://1.envato.market/kjE22z"
 ---
 

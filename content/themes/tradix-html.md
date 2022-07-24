@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange HTML Template + Admin Dashboard + Light & 
 price: 29
 categories: ["html"]
 image: "products/tradix-html.jpeg"
-product: "https://themeforest.net/item/tradix-cryptocurrency-exchange-html-template/24924541"
-demo: "https://preview.themeforest.net/item/tradix-cryptocurrency-exchange-html-template/full_screen_preview/24924541"
+product: "https://1.envato.market/oeD6Zb"
+demo: "https://1.envato.market/BXado1"
 ---
 

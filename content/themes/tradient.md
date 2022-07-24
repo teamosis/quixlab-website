@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange Vue App"
 price: 29
 categories: ["vue"]
 image: "products/tradient.jpeg"
-product: "https://themeforest.net/item/tradient-cryptocurrency-exchange-vue-app/32011563"
-demo: "https://preview.themeforest.net/item/tradient-cryptocurrency-exchange-vue-app/full_screen_preview/32011563"
+product: "https://1.envato.market/4e0nAM"
+demo: "https://1.envato.market/NKWyJv"
 ---
 

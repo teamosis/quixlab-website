@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange Vue App Dashboard"
 price: 29
 categories: ["vue"]
 image: "products/tradio-vue.jpeg"
-product: "https://themeforest.net/item/tradio-cryptocurrency-exchange-vue-app-dashboard/31769897"
-demo: "https://preview.themeforest.net/item/tradio-cryptocurrency-exchange-vue-app-dashboard/full_screen_preview/31769897"
+product: "https://1.envato.market/gbBXXr"
+demo: "https://1.envato.market/Xxj99o"
 ---
 

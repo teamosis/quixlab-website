@@ -5,7 +5,7 @@ description: "Cryptocurrency Exchange Dashboard Laravel Template"
 price: 29
 categories: ["laravel"]
 image: "products/tradix.jpeg"
-product: "https://themeforest.net/item/tradix-cryptocurrency-exchange-dashboard-laravel-template/34445328"
-demo: "https://demo.quixlab.com/tradix/demo"
+product: "https://1.envato.market/BXad9x"
+demo: "https://1.envato.market/WDrQzG"
 ---
 

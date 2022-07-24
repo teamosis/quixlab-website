@@ -5,7 +5,7 @@ description: "Coronavirus Live Traker Real Data API Dashboard + Dark + RTL HTML 
 price: 29
 categories: ["html"]
 image: "products/covtrack-html.jpeg"
-product: "https://themeforest.net/item/covtrack-coronavirus-live-traker-dashboard/26313593"
-demo: "https://preview.themeforest.net/item/covtrack-coronavirus-live-traker-dashboard/full_screen_preview/26313593"
+product: "https://1.envato.market/2rz09z"
+demo: "https://1.envato.market/Ryqd39"
 ---
 
