@@ -13,7 +13,7 @@ mainSections = ["themes"]
 # google tag manager
 google_tag_manager = "" # example: G-XXXXXXXXXX
 
-contact_form_action = "https://formspree.io/f/mjvlnbpg"
+contact_form_action = "https://formsubmit.co/quixlab@themefisher.thrivedesk.email"
 email = "quixlab.com@gmail.com"
 
 # recapcha key
@@ -29,4 +29,4 @@ image = "images/logo.png"
 
 # site verifications
 [site_verification]
-google = ""   # Your verification code
+google = "" # Your verification code

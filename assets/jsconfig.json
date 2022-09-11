@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "../../../../../../var/folders/8y/xkf8qtx123v1j1jm6y1yb30w0000gn/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/twbs/bootstrap@v5.1.3+incompatible/js/*"
+    "../../../../../../var/folders/v9/f83kz3q94wzfcb1jr9cdljkh0000gn/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/twbs/bootstrap@v5.1.3+incompatible/js/*"
    ]
   }
  }
