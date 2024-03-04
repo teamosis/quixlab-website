@@ -4,15 +4,33 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <!-- navbar brand/logo -->
-      <a class="navbar-brand d-flex align-items-center" href="{{ site.BaseURL | relLangURL }}">
+      <a
+        class="navbar-brand d-flex align-items-center"
+        href="{{ site.BaseURL | relLangURL }}"
+      >
         {{ partial "logo.html" . }}
         <span class="h5 m-0 ms-2">Quixlab</span>
       </a>
 
       <!-- navbar toggler -->
-      <button aria-label="navbar toggler" class="navbar-toggler border-0 h4 mb-0 p-0 shadow-none" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.4" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <button
+        aria-label="navbar toggler"
+        class="navbar-toggler border-0 h4 mb-0 p-0 shadow-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navigation"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 24 24"
+          stroke-width="1.4"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
           <line x1="4" y1="6" x2="20" y2="6"></line>
           <line x1="4" y1="12" x2="20" y2="12"></line>
@@ -23,39 +41,85 @@
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ms-auto">
           <!-- menu active -->
-          {{ $currentPage := . }}
-          {{ range site.Menus.main }}
-          {{ $menuURL := .URL | absLangURL }}
-          {{ $pageURL:= $currentPage.Permalink | absLangURL }}
-          {{ $active := eq $menuURL $pageURL }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown {{if .Params.isMenuLarge}}dropdown-lg {{end}}
+          {{ $currentPage := . }} {{ range site.Menus.main }} {{ $menuURL :=
+          .URL | absLangURL }} {{ $pageURL:= $currentPage.Permalink | absLangURL
+          }} {{ $active := eq $menuURL $pageURL }} {{ if .HasChildren }}
+          <li
+            class="nav-item dropdown {{if .Params.isMenuLarge}}dropdown-lg {{end}}
           {{- range .Children -}}
           {{- $childURL := .URL | absLangURL -}}
           {{- $active := eq $childURL $pageURL -}}
           {{- if $active }}active{{ end -}}
-          {{- end -}}">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{- end -}}"
+          >
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
               {{ .Name }}
             </a>
             <ul class="dropdown-menu">
-              {{ range .Children }}
-              {{ $childURL := .URL | absLangURL }}
-              {{ $active := eq $childURL $pageURL }}
+              {{ range .Children }} {{ $childURL := .URL | absLangURL }} {{
+              $active := eq $childURL $pageURL }}
               <li>
-                <a class="dropdown-item {{ if $active }}active{{ end }}" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Pre}}{{ .Name }}{{.Post}}</a>
+                <a
+                  class="dropdown-item {{ if $active }}active{{ end }}"
+                  {{if
+                  findRE
+                  `^http`
+                  .URL}}target="_blank"
+                  rel="noopener"
+                  {{end}}
+                  href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}"
+                  >{{.Pre}}{{ .Name }}{{.Post}}</a
+                >
               </li>
               {{ end }}
             </ul>
           </li>
           {{ else }}
           <li class="nav-item {{ if $active }}active{{ end }}">
-            <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
+            <a
+              class="nav-link"
+              {{if
+              findRE
+              `^http`
+              .URL}}target="_blank"
+              rel="noopener"
+              {{end}}
+              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}"
+              >{{.Name}}{{if findRE `^http` .URL}}
+              <svg
+                viewBox="0 0 24 24"
+                class="mb-1"
+                width="16"
+                height="16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M14 5C13.4477 5 13 4.55228 13 4C13 3.44772 13.4477 3 14 3H20C20.5523 3 21 3.44772 21 4V10C21 10.5523 20.5523 11 20 11C19.4477 11 19 10.5523 19 10V6.41421L11.7071 13.7071C11.3166 14.0976 10.6834 14.0976 10.2929 13.7071C9.90237 13.3166 9.90237 12.6834 10.2929 12.2929L17.5858 5H14ZM5 7C4.44772 7 4 7.44772 4 8V19C4 19.5523 4.44772 20 5 20H16C16.5523 20 17 19.5523 17 19V14.4375C17 13.8852 17.4477 13.4375 18 13.4375C18.5523 13.4375 19 13.8852 19 14.4375V19C19 20.6569 17.6569 22 16 22H5C3.34315 22 2 20.6569 2 19V8C2 6.34315 3.34315 5 5 5H9.5625C10.1148 5 10.5625 5.44772 10.5625 6C10.5625 6.55228 10.1148 7 9.5625 7H5Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+              </svg>
+              {{end}}</a
+            >
           </li>
-          {{ end }}
-          {{ end }}
+          {{ end }} {{ end }}
         </ul>
 
         <div class="navbar-right d-none">
