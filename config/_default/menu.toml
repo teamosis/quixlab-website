@@ -4,10 +4,10 @@ name = "Premium Themes"
 url = "themes/"
 weight = 1
 
-# [[main]]
-# name = "Free Themes"
-# url = "free-themes/"
-# weight = 2
+[[main]]
+name = "30,000+ Design Resources"
+url = "https://uihut.com/"
+weight = 2
 
 [[main]]
 name = "Support"
